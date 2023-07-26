@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: test_Comm_output.c
+:successes: []
+:failures: []
+:ignores:
+- :test: test_Comm_output_NeedToImplement
+  :line: 17
+  :message: Need to Implement Comm_output
+  :unity_test_time: 0
+:counts:
+  :total: 1
+  :passed: 0
+  :failed: 0
+  :ignored: 1
+:stdout: []
+:time: 0.8979548000000932
