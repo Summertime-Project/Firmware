@@ -10,8 +10,7 @@ char* GlobalOrderError;
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_COM_Input_TLV_tag_onebyte(void);
-extern void test_COM_Input_TLV_len_onebyte(void);
+extern void test_Comm_utils_NeedToImplement(void);
 
 
 /*=======Mock Management=====*/
@@ -75,9 +74,8 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
 /*=======MAIN=====*/
 int main(void)
 {
-  UnityBegin("test_Comm_input.c");
-  run_test(test_COM_Input_TLV_tag_onebyte, "test_COM_Input_TLV_tag_onebyte", 18);
-  run_test(test_COM_Input_TLV_len_onebyte, "test_COM_Input_TLV_len_onebyte", 49);
+  UnityBegin("test_Comm_utils.c");
+  run_test(test_Comm_utils_NeedToImplement, "test_Comm_utils_NeedToImplement", 15);
 
   return UnityEnd();
 }

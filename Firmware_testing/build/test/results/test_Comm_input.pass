@@ -2,17 +2,21 @@
 :source:
   :path: test
   :file: test_Comm_input.c
-:successes: []
-:failures: []
-:ignores:
-- :test: test_Comm_input_NeedToImplement
-  :line: 17
-  :message: Need to Implement Comm_input
+:successes:
+- :test: test_COM_Input_TLV_tag_onebyte
+  :line: 18
+  :message: ''
   :unity_test_time: 0
+- :test: test_COM_Input_TLV_len_onebyte
+  :line: 49
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
 :counts:
-  :total: 1
-  :passed: 0
+  :total: 2
+  :passed: 2
   :failed: 0
-  :ignored: 1
+  :ignored: 0
 :stdout: []
-:time: 2.0453440999999657
+:time: 1.0545431000000463
